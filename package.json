@@ -1,0 +1,30 @@
+{
+  "name": "node.js-example",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build:css": "npx tailwindcss -i ./src/styles/tailwind.css -o ./public/styles.css --minify",
+    "start": "node src/Server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ThallasTV/Node.js-example.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ThallasTV/Node.js-example/issues"
+  },
+  "homepage": "https://github.com/ThallasTV/Node.js-example#readme",
+  "description": "",
+  "dependencies": {
+    "@tailwindcss/cli": "^4.1.8",
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.4",
+    "tailwindcss": "^4.1.8"
+  }
+}
